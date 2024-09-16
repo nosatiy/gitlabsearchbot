@@ -2,8 +2,8 @@ import asyncio
 from typing import Optional
 from logging import getLogger
 
-from gitlabsearchbot.gitlab.models import GitProject, GitBlob
-from gitlabsearchbot.gitlab.gitlab_api import GitGraphQL
+from gitlab.models import GitProject, GitBlob
+from gitlab.gitlab_api import GitGraphQL
 from settings import settings
 from gitlab import querys as q
 
